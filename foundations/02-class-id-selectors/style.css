@@ -1,0 +1,19 @@
+*{
+    font-family: 'DejaVu Sans',sans-serif;
+}
+.pinkColor{
+    background-color:  lightpink;
+    font-family: 'Verdana',sans-serif;
+}
+#Number2{
+    color:blue;
+    font-size: 36px;
+}
+.Number3{
+    font-size:24px;
+}
+#Number4{
+    background-color: lightgreen;
+    font-size:36px;
+    font-weight:bold;
+}
