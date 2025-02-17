@@ -29,4 +29,26 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+/* Solution */
 
+.visible {
+  transform-origin: top;
+  animation-name: expandMenu;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes expandMenu {
+  from {
+    transform: scaleY(0);
+  }
+
+  70% {
+    transform: scaleY(1.1);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
+} 
